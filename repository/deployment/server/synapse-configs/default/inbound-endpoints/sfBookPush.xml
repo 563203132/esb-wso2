@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inboundEndpoint
+  class="org.wso2.carbon.inbound.salesforce.poll.SalesforcePlatformEvent"
+  name="SalesforcePlatformEventInbound" onError="fault"
+  sequence="platformEventSequence" suspend="false" xmlns="http://ws.apache.org/ns/synapse">
+  <parameters>
+    <parameter name="sequential">true</parameter>
+    <parameter name="interval">10</parameter>
+    <parameter name="coordination">true</parameter>
+    <parameter name="connection.salesforce.userName">odinintegration@e1omni.non</parameter>
+    <parameter name="connection.salesforce.loginEndpoint">https://login.salesforce.com</parameter>
+    <parameter name="connection.salesforce.password">P@ssw0rd3G4i6hS20wIDsYPoBvaR3xvz5</parameter>
+    <parameter name="connection.salesforce.salesforceObject">Order_Event__e</parameter>
+    <parameter name="connection.salesforce.connectionTimeout">20000</parameter>
+    <parameter name="connection.salesforce.readTimeout">110000</parameter>
+    <parameter name="connection.salesforce.waitTime">10000</parameter>
+    <parameter name="connection.salesforce.packageName">cometd</parameter>
+    <parameter name="connection.salesforce.packageVersion">40.0</parameter>
+    <parameter name="connection.salesforce.soapApiVersion">22.0</parameter>
+    <parameter name="inbound.behavior">polling</parameter>
+  </parameters>
+</inboundEndpoint>

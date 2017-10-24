@@ -1,0 +1,131 @@
+2017-10-17 18:15:43,383 [-] [HttpClient-243]  INFO SERVICE_LOGGER To: ,MessageID: urn:uuid:ECE2093533DCB5FD771508235343304,Direction: request,Payload: {"data":{"schema":"FG1uMXLrVfseiiV0DWAo-Q","payload":{"CreatedById":"0056F0000073uAwQAI","Message__c":"VicIntegrationTest_001","CreatedDate":"2017-10-17T10:16:54Z"},"event":{"replayId":39}},"channel":"/event/Order_Event__e"}
+2017-10-17 18:15:43,490 [-] [HttpClient-243]  INFO SERVICE_LOGGER FaultHandler executing impl: org.apache.synapse.mediators.MediatorFaultHandler
+2017-10-17 18:15:43,490 [-] [HttpClient-243]  WARN SERVICE_LOGGER Executing fault sequence mediator : fault
+2017-10-17 18:15:43,502 [-] [HttpClient-243]  INFO SERVICE_LOGGER To: , MessageID: urn:uuid:345ac406-f00c-4dfd-8401-699cea02efff, Direction: request, MESSAGE = Executing default 'fault' sequence, ERROR_CODE = 305100, ERROR_MESSAGE = Couldn't find the endpoint with the key : platformEvent, Payload: {	"order_message" : "VicIntegrationTest_001" }
+2017-10-17 18:36:51,177 [-] [HttpClient-243]  INFO SERVICE_LOGGER To: ,MessageID: urn:uuid:ECE2093533DCB5FD771508236611179,Direction: request,Payload: {"data":{"schema":"FG1uMXLrVfseiiV0DWAo-Q","payload":{"CreatedById":"0056F0000073uAwQAI","Message__c":"VicIntegration_002","CreatedDate":"2017-10-17T10:38:02Z"},"event":{"replayId":40}},"channel":"/event/Order_Event__e"}
+2017-10-17 18:36:51,180 [-] [HttpClient-243]  INFO SERVICE_LOGGER FaultHandler executing impl: org.apache.synapse.mediators.MediatorFaultHandler
+2017-10-17 18:36:51,180 [-] [HttpClient-243]  WARN SERVICE_LOGGER Executing fault sequence mediator : fault
+2017-10-17 18:36:51,181 [-] [HttpClient-243]  INFO SERVICE_LOGGER To: , MessageID: urn:uuid:95e7d4ba-6571-4005-abc3-9397ef992cbf, Direction: request, MESSAGE = Executing default 'fault' sequence, ERROR_CODE = 305100, ERROR_MESSAGE = Couldn't find the endpoint with the key : platformEvent, Payload: {	"order_message" : "VicIntegration_002" }
+2017-10-17 18:39:59,445 [-] [HttpClient-247]  INFO SERVICE_LOGGER To: ,MessageID: urn:uuid:ECE2093533DCB5FD771508236799446,Direction: request,Payload: {"data":{"schema":"FG1uMXLrVfseiiV0DWAo-Q","payload":{"CreatedById":"0056F0000073uAwQAI","Message__c":"VicIntegration_003","CreatedDate":"2017-10-17T10:41:10Z"},"event":{"replayId":41}},"channel":"/event/Order_Event__e"}
+2017-10-17 18:39:59,586 [-] [HttpClient-247]  WARN SERVICE_LOGGER ERROR_CODE : 0 ERROR_MESSAGE : Unexpected error during sending message out
+2017-10-17 18:39:59,586 [-] [HttpClient-247]  WARN SERVICE_LOGGER Executing fault sequence mediator : fault
+2017-10-17 18:39:59,587 [-] [HttpClient-247]  INFO SERVICE_LOGGER To: , MessageID: urn:uuid:ECE2093533DCB5FD771508236799446, Direction: request, MESSAGE = Executing default 'fault' sequence, ERROR_CODE = 0, ERROR_MESSAGE = Unexpected error during sending message out, Payload: {	"order_message" : "VicIntegration_003" }
+2017-10-17 19:10:18,238 [-] [HttpClient-120]  INFO SERVICE_LOGGER To: ,MessageID: urn:uuid:1C90247B4EF7DD454D1508238618202,Direction: request,Payload: {"data":{"schema":"FG1uMXLrVfseiiV0DWAo-Q","payload":{"CreatedById":"0056F0000073uAwQAI","Message__c":"VicIntegration_004","CreatedDate":"2017-10-17T11:11:29Z"},"event":{"replayId":42}},"channel":"/event/Order_Event__e"}
+2017-10-17 20:02:38,279 [-] [HttpClient-121]  INFO SERVICE_LOGGER To: ,MessageID: urn:uuid:7FD1D2FFB1D7F7BA231508241758226,Direction: request,Payload: {"data":{"schema":"FG1uMXLrVfseiiV0DWAo-Q","payload":{"CreatedById":"0056F0000073uAwQAI","Message__c":"VicIntegration_006","CreatedDate":"2017-10-17T12:03:49Z"},"event":{"replayId":44}},"channel":"/event/Order_Event__e"}
+2017-10-17 20:11:42,120 [-] [HttpClient-117]  INFO SERVICE_LOGGER To: ,MessageID: urn:uuid:7FD1D2FFB1D7F7BA231508242302121,Direction: request,Payload: {"data":{"schema":"FG1uMXLrVfseiiV0DWAo-Q","payload":{"CreatedById":"0056F0000073uAwQAI","Message__c":"vicIntegration_007","CreatedDate":"2017-10-17T12:12:53Z"},"event":{"replayId":45}},"channel":"/event/Order_Event__e"}
+2017-10-17 20:14:37,886 [-] [HttpClient-117]  INFO SERVICE_LOGGER To: ,MessageID: urn:uuid:7FD1D2FFB1D7F7BA231508242477873,Direction: request,Payload: {"data":{"schema":"FG1uMXLrVfseiiV0DWAo-Q","payload":{"CreatedById":"0056F0000073uAwQAI","Message__c":"VicIntegration_008","CreatedDate":"2017-10-17T12:15:49Z"},"event":{"replayId":46}},"channel":"/event/Order_Event__e"}
+2017-10-17 20:23:02,676 [-] [HttpClient-121]  INFO SERVICE_LOGGER To: ,MessageID: urn:uuid:7FD1D2FFB1D7F7BA231508242982657,Direction: request,Payload: {"data":{"schema":"FG1uMXLrVfseiiV0DWAo-Q","payload":{"CreatedById":"0056F0000073uAwQAI","Message__c":"VicIntegration_008","CreatedDate":"2017-10-17T12:24:14Z"},"event":{"replayId":47}},"channel":"/event/Order_Event__e"}
+2017-10-17 22:01:41,731 [-] [HttpClient-119]  INFO SERVICE_LOGGER To: ,MessageID: urn:uuid:7FD1D2FFB1D7F7BA231508248901695,Direction: request,Payload: {"data":{"schema":"FG1uMXLrVfseiiV0DWAo-Q","payload":{"CreatedById":"0056F0000073uAwQAI","Message__c":"VicIntegration_009","CreatedDate":"2017-10-17T14:02:52Z"},"event":{"replayId":48}},"channel":"/event/Order_Event__e"}
+2017-10-17 22:43:16,764 [-] [HttpClient-123]  INFO SERVICE_LOGGER To: ,MessageID: urn:uuid:7FD1D2FFB1D7F7BA231508251396769,Direction: request,Payload: {"data":{"schema":"FG1uMXLrVfseiiV0DWAo-Q","payload":{"CreatedById":"0056F0000073uAwQAI","Message__c":"VicIntegration_010","CreatedDate":"2017-10-17T14:44:27Z"},"event":{"replayId":49}},"channel":"/event/Order_Event__e"}
+2017-10-17 22:46:24,190 [-] [HttpClient-121]  INFO SERVICE_LOGGER To: ,MessageID: urn:uuid:9BBAD8A930C0602F071508251584134,Direction: request,Payload: {"data":{"schema":"FG1uMXLrVfseiiV0DWAo-Q","payload":{"CreatedById":"0056F0000073uAwQAI","Message__c":null,"CreatedDate":"2017-10-17T14:47:35Z"},"event":{"replayId":50}},"channel":"/event/Order_Event__e"}
+2017-10-17 22:50:53,315 [-] [HttpClient-122]  INFO SERVICE_LOGGER To: ,MessageID: urn:uuid:9BBAD8A930C0602F071508251853316,Direction: request,Payload: {"data":{"schema":"FG1uMXLrVfseiiV0DWAo-Q","payload":{"CreatedById":"0056F0000073uAwQAI","Message__c":"vicintegration_011","CreatedDate":"2017-10-17T14:52:04Z"},"event":{"replayId":51}},"channel":"/event/Order_Event__e"}
+2017-10-17 22:57:24,040 [-] [HttpClient-120]  INFO SERVICE_LOGGER To: ,MessageID: urn:uuid:E631095B9998B5E4871508252244011,Direction: request,Payload: {"data":{"schema":"FG1uMXLrVfseiiV0DWAo-Q","payload":{"CreatedById":"0056F0000073uAwQAI","Message__c":"VicIntegration_12","CreatedDate":"2017-10-17T14:58:35Z"},"event":{"replayId":52}},"channel":"/event/Order_Event__e"}
+2017-10-17 23:04:37,874 [-] [HttpClient-121]  INFO SERVICE_LOGGER To: ,MessageID: urn:uuid:E631095B9998B5E4871508252677875,Direction: request,Payload: {"data":{"schema":"FG1uMXLrVfseiiV0DWAo-Q","payload":{"CreatedById":"0056F0000073uAwQAI","Message__c":"VicIntegration_013","CreatedDate":"2017-10-17T15:05:48Z"},"event":{"replayId":53}},"channel":"/event/Order_Event__e"}
+2017-10-17 23:11:31,044 [-] [HttpClient-123]  INFO SERVICE_LOGGER To: ,MessageID: urn:uuid:3597C5E32357CE40D91508253091026,Direction: request,Payload: {"data":{"schema":"FG1uMXLrVfseiiV0DWAo-Q","payload":{"CreatedById":"0056F0000073uAwQAI","Message__c":"VicIntegration_014","CreatedDate":"2017-10-17T15:12:41Z"},"event":{"replayId":54}},"channel":"/event/Order_Event__e"}
+2017-10-17 23:14:45,593 [-] [HttpClient-122]  INFO SERVICE_LOGGER To: ,MessageID: urn:uuid:1A9270135E9017BF331508253285557,Direction: request,Payload: {"data":{"schema":"FG1uMXLrVfseiiV0DWAo-Q","payload":{"CreatedById":"0056F0000073uAwQAI","Message__c":"VicIntegration_015","CreatedDate":"2017-10-17T15:15:56Z"},"event":{"replayId":55}},"channel":"/event/Order_Event__e"}
+2017-10-17 23:20:19,026 [-] [HttpClient-119]  INFO SERVICE_LOGGER To: ,MessageID: urn:uuid:CEA1CC22F9505281331508253618993,Direction: request,Payload: {"data":{"schema":"FG1uMXLrVfseiiV0DWAo-Q","payload":{"CreatedById":"0056F0000073uAwQAI","Message__c":"VicIntegration_017","CreatedDate":"2017-10-17T15:21:30Z"},"event":{"replayId":56}},"channel":"/event/Order_Event__e"}
+2017-10-17 23:23:29,823 [-] [HttpClient-120]  INFO SERVICE_LOGGER To: ,MessageID: urn:uuid:CEA1CC22F9505281331508253809824,Direction: request,Payload: {"data":{"schema":"FG1uMXLrVfseiiV0DWAo-Q","payload":{"CreatedById":"0056F0000073uAwQAI","Message__c":"VicIntegration_018","CreatedDate":"2017-10-17T15:24:40Z"},"event":{"replayId":57}},"channel":"/event/Order_Event__e"}
+2017-10-17 23:25:33,903 [-] [HttpClient-120]  INFO SERVICE_LOGGER To: ,MessageID: urn:uuid:CEA1CC22F9505281331508253933905,Direction: request,Payload: {"data":{"schema":"FG1uMXLrVfseiiV0DWAo-Q","payload":{"CreatedById":"0056F0000073uAwQAI","Message__c":"001","CreatedDate":"2017-10-17T15:26:44Z"},"event":{"replayId":58}},"channel":"/event/Order_Event__e"}
+2017-10-17 23:34:49,736 [-] [HttpClient-121]  INFO SERVICE_LOGGER To: ,MessageID: urn:uuid:AEC6ACA1E138FD5AE21508254489703,Direction: request,Payload: {"data":{"schema":"FG1uMXLrVfseiiV0DWAo-Q","payload":{"CreatedById":"0056F0000073uAwQAI","Message__c":"002","CreatedDate":"2017-10-17T15:36:00Z"},"event":{"replayId":59}},"channel":"/event/Order_Event__e"}
+2017-10-17 23:39:33,249 [-] [HttpClient-118]  INFO SERVICE_LOGGER To: ,MessageID: urn:uuid:6447CF3A1DE227D2B71508254773220,Direction: request,Payload: {"data":{"schema":"FG1uMXLrVfseiiV0DWAo-Q","payload":{"CreatedById":"0056F0000073uAwQAI","Message__c":"003","CreatedDate":"2017-10-17T15:40:44Z"},"event":{"replayId":60}},"channel":"/event/Order_Event__e"}
+2017-10-17 23:42:41,461 [-] [HttpClient-122]  INFO SERVICE_LOGGER To: ,MessageID: urn:uuid:6447CF3A1DE227D2B71508254961463,Direction: request,Payload: {"data":{"schema":"FG1uMXLrVfseiiV0DWAo-Q","payload":{"CreatedById":"0056F0000073uAwQAI","Message__c":"004","CreatedDate":"2017-10-17T15:43:51Z"},"event":{"replayId":61}},"channel":"/event/Order_Event__e"}
+2017-10-17 23:45:27,940 [-] [HttpClient-121]  INFO SERVICE_LOGGER To: ,MessageID: urn:uuid:6447CF3A1DE227D2B71508255127942,Direction: request,Payload: {"data":{"schema":"FG1uMXLrVfseiiV0DWAo-Q","payload":{"CreatedById":"0056F0000073uAwQAI","Message__c":"VicIntegration_005","CreatedDate":"2017-10-17T15:46:38Z"},"event":{"replayId":62}},"channel":"/event/Order_Event__e"}
+2017-10-17 23:48:40,130 [-] [HttpClient-118]  INFO SERVICE_LOGGER To: ,MessageID: urn:uuid:6447CF3A1DE227D2B71508255320130,Direction: request,Payload: {"data":{"schema":"FG1uMXLrVfseiiV0DWAo-Q","payload":{"CreatedById":"0056F0000073uAwQAI","Message__c":"006","CreatedDate":"2017-10-17T15:49:50Z"},"event":{"replayId":63}},"channel":"/event/Order_Event__e"}
+2017-10-17 23:52:30,793 [-] [HttpClient-120]  INFO SERVICE_LOGGER To: ,MessageID: urn:uuid:6447CF3A1DE227D2B71508255550797,Direction: request,Payload: {"data":{"schema":"FG1uMXLrVfseiiV0DWAo-Q","payload":{"CreatedById":"0056F0000073uAwQAI","Message__c":"007","CreatedDate":"2017-10-17T15:53:41Z"},"event":{"replayId":64}},"channel":"/event/Order_Event__e"}
+2017-10-18 00:36:50,486 [-] [HttpClient-123]  INFO SERVICE_LOGGER To: ,MessageID: urn:uuid:6447CF3A1DE227D2B71508258210491,Direction: request,Payload: {"data":{"schema":"FG1uMXLrVfseiiV0DWAo-Q","payload":{"CreatedById":"0056F0000073uAwQAI","Message__c":"008","CreatedDate":"2017-10-17T16:38:01Z"},"event":{"replayId":65}},"channel":"/event/Order_Event__e"}
+2017-10-18 00:38:49,038 [-] [HttpClient-124]  INFO SERVICE_LOGGER To: ,MessageID: urn:uuid:6447CF3A1DE227D2B71508258329042,Direction: request,Payload: {"data":{"schema":"FG1uMXLrVfseiiV0DWAo-Q","payload":{"CreatedById":"0056F0000073uAwQAI","Message__c":"009","CreatedDate":"2017-10-17T16:40:00Z"},"event":{"replayId":66}},"channel":"/event/Order_Event__e"}
+2017-10-18 10:39:27,872 [-] [HttpClient-123]  INFO SERVICE_LOGGER To: ,MessageID: urn:uuid:6447CF3A1DE227D2B71508294367877,Direction: request,Payload: {"data":{"schema":"FG1uMXLrVfseiiV0DWAo-Q","payload":{"CreatedById":"0056F0000073uAwQAI","Message__c":"010","CreatedDate":"2017-10-18T02:40:37Z"},"event":{"replayId":67}},"channel":"/event/Order_Event__e"}
+2017-10-18 10:49:06,558 [-] [HttpClient-124]  INFO SERVICE_LOGGER To: ,MessageID: urn:uuid:6447CF3A1DE227D2B71508294946566,Direction: request,Payload: {"data":{"schema":"FG1uMXLrVfseiiV0DWAo-Q","payload":{"CreatedById":"0056F0000073uAwQAI","Message__c":"012","CreatedDate":"2017-10-18T02:50:17Z"},"event":{"replayId":68}},"channel":"/event/Order_Event__e"}
+2017-10-18 10:50:24,467 [-] [HttpClient-123]  INFO SERVICE_LOGGER To: ,MessageID: urn:uuid:6447CF3A1DE227D2B71508295024475,Direction: request,Payload: {"data":{"schema":"FG1uMXLrVfseiiV0DWAo-Q","payload":{"CreatedById":"0056F0000073uAwQAI","Message__c":"013","CreatedDate":"2017-10-18T02:51:34Z"},"event":{"replayId":69}},"channel":"/event/Order_Event__e"}
+2017-10-18 10:51:57,393 [-] [HttpClient-120]  INFO SERVICE_LOGGER To: ,MessageID: urn:uuid:6447CF3A1DE227D2B71508295117402,Direction: request,Payload: {"data":{"schema":"FG1uMXLrVfseiiV0DWAo-Q","payload":{"CreatedById":"0056F0000073uAwQAI","Message__c":"014","CreatedDate":"2017-10-18T02:53:08Z"},"event":{"replayId":70}},"channel":"/event/Order_Event__e"}
+2017-10-18 10:54:09,267 [-] [HttpClient-123]  INFO SERVICE_LOGGER To: ,MessageID: urn:uuid:6447CF3A1DE227D2B71508295249278,Direction: request,Payload: {"data":{"schema":"FG1uMXLrVfseiiV0DWAo-Q","payload":{"CreatedById":"0056F0000073uAwQAI","Message__c":"015","CreatedDate":"2017-10-18T02:55:19Z"},"event":{"replayId":71}},"channel":"/event/Order_Event__e"}
+2017-10-18 16:04:29,315 [-] [HttpClient-123]  INFO SERVICE_LOGGER To: ,MessageID: urn:uuid:BD66BF2685DDAB31161508313869265,Direction: request,Payload: {"data":{"schema":"FG1uMXLrVfseiiV0DWAo-Q","payload":{"CreatedById":"0056F0000073uAwQAI","Message__c":"018","CreatedDate":"2017-10-18T08:05:40Z"},"event":{"replayId":72}},"channel":"/event/Order_Event__e"}
+2017-10-18 16:05:50,027 [-] [HttpClient-119]  INFO SERVICE_LOGGER To: ,MessageID: urn:uuid:BD66BF2685DDAB31161508313950028,Direction: request,Payload: {"data":{"schema":"FG1uMXLrVfseiiV0DWAo-Q","payload":{"CreatedById":"0056F0000073uAwQAI","Message__c":"019","CreatedDate":"2017-10-18T08:06:59Z"},"event":{"replayId":73}},"channel":"/event/Order_Event__e"}
+2017-10-18 16:24:45,861 [-] [HttpClient-123]  INFO SERVICE_LOGGER To: ,MessageID: urn:uuid:BD66BF2685DDAB31161508315085864,Direction: request,Payload: {"data":{"schema":"FG1uMXLrVfseiiV0DWAo-Q","payload":{"CreatedById":"0056F0000073uAwQAI","Message__c":"020","CreatedDate":"2017-10-18T08:25:56Z"},"event":{"replayId":74}},"channel":"/event/Order_Event__e"}
+2017-10-18 16:29:03,776 [-] [HttpClient-121]  INFO SERVICE_LOGGER To: ,MessageID: urn:uuid:BD66BF2685DDAB31161508315343780,Direction: request,Payload: {"data":{"schema":"FG1uMXLrVfseiiV0DWAo-Q","payload":{"CreatedById":"0056F0000073uAwQAI","Message__c":"021","CreatedDate":"2017-10-18T08:30:13Z"},"event":{"replayId":75}},"channel":"/event/Order_Event__e"}
+2017-10-18 16:56:35,497 [-] [HttpClient-121]  INFO SERVICE_LOGGER To: ,MessageID: urn:uuid:BD66BF2685DDAB31161508316995498,Direction: request,Payload: {"data":{"schema":"FG1uMXLrVfseiiV0DWAo-Q","payload":{"CreatedById":"0056F0000073uAwQAI","Message__c":"022","CreatedDate":"2017-10-18T08:57:45Z"},"event":{"replayId":76}},"channel":"/event/Order_Event__e"}
+2017-10-18 16:59:16,081 [-] [HttpClient-122]  INFO SERVICE_LOGGER To: ,MessageID: urn:uuid:BD66BF2685DDAB31161508317156086,Direction: request,Payload: {"data":{"schema":"FG1uMXLrVfseiiV0DWAo-Q","payload":{"CreatedById":"0056F0000073uAwQAI","Message__c":"023","CreatedDate":"2017-10-18T09:00:26Z"},"event":{"replayId":77}},"channel":"/event/Order_Event__e"}
+2017-10-18 17:00:04,989 [-] [HttpClient-119]  INFO SERVICE_LOGGER To: ,MessageID: urn:uuid:BD66BF2685DDAB31161508317204996,Direction: request,Payload: {"data":{"schema":"FG1uMXLrVfseiiV0DWAo-Q","payload":{"CreatedById":"0056F0000073uAwQAI","Message__c":"024","CreatedDate":"2017-10-18T09:01:15Z"},"event":{"replayId":78}},"channel":"/event/Order_Event__e"}
+2017-10-18 17:01:13,989 [-] [HttpClient-122]  INFO SERVICE_LOGGER To: ,MessageID: urn:uuid:BD66BF2685DDAB31161508317273997,Direction: request,Payload: {"data":{"schema":"FG1uMXLrVfseiiV0DWAo-Q","payload":{"CreatedById":"0056F0000073uAwQAI","Message__c":"025","CreatedDate":"2017-10-18T09:02:24Z"},"event":{"replayId":79}},"channel":"/event/Order_Event__e"}
+2017-10-18 17:16:42,219 [-] [HttpClient-122]  INFO SERVICE_LOGGER To: ,MessageID: urn:uuid:BD66BF2685DDAB31161508318202227,Direction: request,Payload: {"data":{"schema":"FG1uMXLrVfseiiV0DWAo-Q","payload":{"CreatedById":"0056F0000073uAwQAI","Message__c":"026","CreatedDate":"2017-10-18T09:17:52Z"},"event":{"replayId":80}},"channel":"/event/Order_Event__e"}
+2017-10-18 17:17:43,211 [-] [HttpClient-122]  INFO SERVICE_LOGGER To: ,MessageID: urn:uuid:BD66BF2685DDAB31161508318263220,Direction: request,Payload: {"data":{"schema":"FG1uMXLrVfseiiV0DWAo-Q","payload":{"CreatedById":"0056F0000073uAwQAI","Message__c":"027","CreatedDate":"2017-10-18T09:18:53Z"},"event":{"replayId":81}},"channel":"/event/Order_Event__e"}
+2017-10-18 17:18:39,891 [-] [HttpClient-122]  INFO SERVICE_LOGGER To: ,MessageID: urn:uuid:BD66BF2685DDAB31161508318319902,Direction: request,Payload: {"data":{"schema":"FG1uMXLrVfseiiV0DWAo-Q","payload":{"CreatedById":"0056F0000073uAwQAI","Message__c":"028","CreatedDate":"2017-10-18T09:19:50Z"},"event":{"replayId":82}},"channel":"/event/Order_Event__e"}
+2017-10-18 17:23:16,160 [-] [HttpClient-123]  INFO SERVICE_LOGGER To: ,MessageID: urn:uuid:33DF4BA1B91D32377C1508318595915,Direction: request,Payload: {"data":{"schema":"FG1uMXLrVfseiiV0DWAo-Q","payload":{"CreatedById":"0056F0000073uAwQAI","Message__c":"029","CreatedDate":"2017-10-18T09:24:25Z"},"event":{"replayId":83}},"channel":"/event/Order_Event__e"}
+2017-10-18 18:32:05,429 [-] [HttpClient-296]  INFO SERVICE_LOGGER To: ,MessageID: urn:uuid:33DF4BA1B91D32377C1508322725430,Direction: request,Payload: {"data":{"schema":"PfaaMQZe1xd9FeLuRJCkiA","payload":{"CreatedById":"0056F0000073uAwQAI","CreatedDate":"2017-10-18T10:33:16Z","Group_Id__c":1.0},"event":{"replayId":1}},"channel":"/event/Group_Integration_Event__e"}
+2017-10-18 18:42:51,917 [-] [HttpClient-296]  INFO SERVICE_LOGGER To: ,MessageID: urn:uuid:33DF4BA1B91D32377C1508323371919,Direction: request,Payload: {"data":{"schema":"PfaaMQZe1xd9FeLuRJCkiA","payload":{"CreatedById":"0056F0000073uAwQAI","CreatedDate":"2017-10-18T10:44:01Z","Group_Id__c":2.0},"event":{"replayId":2}},"channel":"/event/Group_Integration_Event__e"}
+2017-10-18 18:49:16,563 [-] [HttpClient-297]  INFO SERVICE_LOGGER To: ,MessageID: urn:uuid:33DF4BA1B91D32377C1508323756566,Direction: request,Payload: {"data":{"schema":"PfaaMQZe1xd9FeLuRJCkiA","payload":{"CreatedById":"0056F0000073uAwQAI","CreatedDate":"2017-10-18T10:50:26Z","Group_Id__c":3.0},"event":{"replayId":3}},"channel":"/event/Group_Integration_Event__e"}
+2017-10-18 18:49:16,632 [-] [HttpClient-297] ERROR SERVICE_LOGGER javax.xml.stream.XMLStreamException: ParseError at [row,col]:[7,13]
+Message: Unexpected symbol: COMMA
+org.apache.axiom.om.OMException: javax.xml.stream.XMLStreamException: ParseError at [row,col]:[7,13]
+Message: Unexpected symbol: COMMA
+	at org.apache.axiom.om.impl.builder.StAXOMBuilder.next(StAXOMBuilder.java:296)
+	at org.apache.axiom.om.impl.llom.OMElementImpl.buildNext(OMElementImpl.java:653)
+	at org.apache.axiom.om.impl.llom.OMSourcedElementImpl.buildNext(OMSourcedElementImpl.java:880)
+	at org.apache.axiom.om.impl.llom.OMNodeImpl.getNextOMSibling(OMNodeImpl.java:122)
+	at org.apache.axiom.om.impl.llom.OMElementImpl.getNextOMSibling(OMElementImpl.java:343)
+	at org.apache.axiom.om.impl.OMNavigator._getFirstChild(OMNavigator.java:199)
+	at org.apache.axiom.om.impl.OMNavigator.updateNextNode(OMNavigator.java:140)
+	at org.apache.axiom.om.impl.OMNavigator.getNext(OMNavigator.java:112)
+	at org.apache.axiom.om.impl.SwitchingWrapper.updateNextNode(SwitchingWrapper.java:1113)
+	at org.apache.axiom.om.impl.SwitchingWrapper.<init>(SwitchingWrapper.java:235)
+	at org.apache.axiom.om.impl.OMStAXWrapper.<init>(OMStAXWrapper.java:74)
+	at org.apache.axiom.om.impl.llom.OMStAXWrapper.<init>(OMStAXWrapper.java:52)
+	at org.apache.axiom.om.impl.llom.OMContainerHelper.getXMLStreamReader(OMContainerHelper.java:51)
+	at org.apache.axiom.om.impl.llom.OMElementImpl.getXMLStreamReader(OMElementImpl.java:736)
+	at org.apache.axiom.om.impl.llom.OMElementImpl.cloneOMElement(OMElementImpl.java:1038)
+	at org.apache.synapse.util.MessageHelper.cloneSOAPEnvelope(MessageHelper.java:708)
+	at org.apache.synapse.util.MessageHelper.cloneAxis2MessageContext(MessageHelper.java:440)
+	at org.apache.synapse.util.MessageHelper.cloneMessageContext(MessageHelper.java:89)
+	at org.apache.synapse.util.MessageHelper.cloneMessageContext(MessageHelper.java:205)
+	at org.apache.synapse.mediators.builtin.CallMediator.handleNonBlockingCall(CallMediator.java:173)
+	at org.apache.synapse.mediators.builtin.CallMediator.mediate(CallMediator.java:87)
+	at org.apache.synapse.mediators.AbstractListMediator.mediate(AbstractListMediator.java:81)
+	at org.apache.synapse.mediators.AbstractListMediator.mediate(AbstractListMediator.java:48)
+	at org.apache.synapse.mediators.base.SequenceMediator.mediate(SequenceMediator.java:149)
+	at org.apache.synapse.core.axis2.Axis2SynapseEnvironment.injectInbound(Axis2SynapseEnvironment.java:369)
+	at org.wso2.carbon.inbound.endpoint.protocol.generic.GenericPollingConsumer.injectMessage(GenericPollingConsumer.java:117)
+	at org.wso2.carbon.inbound.endpoint.protocol.generic.GenericPollingConsumer.injectMessage(GenericPollingConsumer.java:75)
+	at org.wso2.carbon.inbound.salesforce.poll.SalesforcePlatformEvent.injectSalesforceMessage(SalesforcePlatformEvent.java:314)
+	at org.wso2.carbon.inbound.salesforce.poll.SalesforcePlatformEvent.access$500(SalesforcePlatformEvent.java:48)
+	at org.wso2.carbon.inbound.salesforce.poll.SalesforcePlatformEvent$4.onMessage(SalesforcePlatformEvent.java:168)
+	at org.cometd.common.AbstractClientSession$AbstractSessionChannel.notifyOnMessage(AbstractClientSession.java:394)
+	at org.cometd.common.AbstractClientSession$AbstractSessionChannel.notifyMessageListeners(AbstractClientSession.java:385)
+	at org.cometd.common.AbstractClientSession.receive(AbstractClientSession.java:225)
+	at org.cometd.client.BayeuxClient.processMessage(BayeuxClient.java:736)
+	at org.cometd.client.BayeuxClient$PublishTransportListener.processMessage(BayeuxClient.java:1111)
+	at org.cometd.client.BayeuxClient$ConnectTransportListener.processMessage(BayeuxClient.java:1166)
+	at org.cometd.client.BayeuxClient$PublishTransportListener.onMessages(BayeuxClient.java:1086)
+	at org.cometd.client.transport.LongPollingTransport$TransportExchange.onResponseComplete(LongPollingTransport.java:297)
+	at org.eclipse.jetty.client.HttpExchange$Listener.onResponseComplete(HttpExchange.java:968)
+	at org.eclipse.jetty.client.HttpExchange.setStatus(HttpExchange.java:279)
+	at org.eclipse.jetty.client.HttpConnection$Handler.messageComplete(HttpConnection.java:619)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:828)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:220)
+	at org.eclipse.jetty.client.HttpConnection.handle(HttpConnection.java:275)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:535)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:40)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:529)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: javax.xml.stream.XMLStreamException: ParseError at [row,col]:[7,13]
+Message: Unexpected symbol: COMMA
+	at org.apache.synapse.commons.staxon.core.base.AbstractXMLStreamReader.hasNext(AbstractXMLStreamReader.java:449)
+	at org.apache.synapse.commons.staxon.core.base.AbstractXMLStreamReader.next(AbstractXMLStreamReader.java:456)
+	at javax.xml.stream.util.StreamReaderDelegate.next(StreamReaderDelegate.java:88)
+	at org.apache.axiom.om.impl.builder.StAXOMBuilder.parserNext(StAXOMBuilder.java:681)
+	at org.apache.axiom.om.impl.builder.StAXOMBuilder.next(StAXOMBuilder.java:214)
+	... 47 more
+2017-10-18 18:49:16,633 [-] [HttpClient-297]  WARN SERVICE_LOGGER ERROR_CODE : 0 ERROR_MESSAGE : javax.xml.stream.XMLStreamException: ParseError at [row,col]:[7,13]
+2017-10-18 18:49:16,633 [-] [HttpClient-297]  WARN SERVICE_LOGGER Executing fault sequence mediator : fault
+2017-10-18 18:49:16,653 [-] [HttpClient-297]  INFO SERVICE_LOGGER To: , MessageID: urn:uuid:33DF4BA1B91D32377C1508323756566, Direction: request, MESSAGE = Executing default 'fault' sequence, ERROR_CODE = 0, ERROR_MESSAGE = javax.xml.stream.XMLStreamException: ParseError at [row,col]:[7,13], Payload: {
+  "messageType":[
+    "urn:message:EFSchools.EnglishFirst.Odin.OdinBusContract:GroupIntegrationEvent",
+    "urn:message:EFSchools.EnglishFirst.Odin.OdinBusContract:OdinBusEvent"
+  ],
+  "message":{
+    "groupId" : ,
+    "isFromOdin" : "false",
+    "eventTime" : "1970-01-01",
+    "version" : "1.0"
+  }
+}
+2017-10-18 18:49:56,844 [-] [HttpClient-296]  INFO SERVICE_LOGGER To: ,MessageID: urn:uuid:33DF4BA1B91D32377C1508323796848,Direction: request,Payload: {"data":{"schema":"PfaaMQZe1xd9FeLuRJCkiA","payload":{"CreatedById":"0056F0000073uAwQAI","CreatedDate":"2017-10-18T10:51:06Z","Group_Id__c":4.0},"event":{"replayId":4}},"channel":"/event/Group_Integration_Event__e"}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<endpoint xmlns="http://ws.apache.org/ns/synapse" name="platformEvent">
+   <address uri="rabbitmq:/ha_omni_queue?rabbitmq.server.host.name=localhost&amp;rabbitmq.server.port=5672&amp;rabbitmq.server.user.name=guest&amp;rabbitmq.server.password=guest&amp;rabbitmq.queue.name=ha_omni_queue&amp;rabbitmq.queue.exchange.name=EFSchools.EnglishFirst.Odin.OdinBusContract:GroupIntegrationEvent"/>
+</endpoint>
